@@ -8,6 +8,7 @@ namespace ConsoleApp1
 {
     public class Class1
     {
-        public string Name { get; }
+        public string Name { set; get; }
+        public int Age { set; get; }
     }
 }
